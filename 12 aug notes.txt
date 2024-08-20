@@ -1,0 +1,118 @@
+how to print statement in new line : 
+\n :new line 
+
+#include<stdio.h>
+int main(){
+    printf("Hello\n wor\nld ");
+    return 0;
+}
+---------------------------------------------------------------------
+how to run the code :
+compiler : source code convert into machine code 
+
+machine code : computer understandable code 
+
+object code :
+->platform dependent 
+->machine code 
+->heavy weight 
+->is used to link the files 
+
+---------------------------------------------------------------------
+data types :
+->it is used to store the variable value 
+->which type of value variable stored 
+
+syntax:
+datatype variablename=value;
+
+types :
+a)primitive data type 
+->int , char , float 
+
+int :
+->used to store integer type value 
+->whole number (0-----9) 
+->positive number and negative number , zero 
+eg :78,-4
+%d :format specifier 
+#include<stdio.h>
+int main(){
+    int a=78;
+    printf("%d",a);
+    return 0;
+}
+================================================
+float :
+->it is used to store decimal type value 
+->it is used to store positive decimal value and negative decimal value 
+->format specifier :%f 
+eg :8.9, -1.2 
+
+#include<stdio.h>
+int main(){
+    float a=2.3;
+    printf("%f",a);
+    return 0;
+}
+================================================
+char :
+->it is used to store character value (alphabets ) 
+->a----z 
+->character always stored in single character. 
+->format specifier :%c 
+char ab='';
+
+#include<stdio.h>
+int main(){
+  char ab='y';
+  printf("%c",ab);
+    return 0;
+}
+b)non-primitive data type 
+->functions , array , pointers 
+
+variable :
+->it is used to hold the value and store the value and it work like container.
+
+---------------------------------------------------------------------
+4.4
+2
+
+#include<stdio.h>
+int main(){
+    float a=4.4;
+    printf("%f\n",a);
+    int b=2;
+    printf("%d",b);
+    return 0;
+}
+---------------------------------------------------------------------
+2 + 2 = 4 
+
+#include<stdio.h>
+int main(){
+    int a=2;
+    int b=2;
+    int c=a+b;
+    printf("%d",c);
+    return 0;
+}
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
