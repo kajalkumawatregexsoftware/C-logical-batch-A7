@@ -1,0 +1,110 @@
+34
+-2.34
+ t
+
+#include<stdio.h>
+int main(){
+    int a=34;
+    printf("%d\n",a);
+    float b=-2.34;
+    printf("%f\n",b);
+    char c='t';
+    printf("%c\n",c);
+    return 0;
+}
+----------------------------------------------------------------------
+operators : 
+->operators is used for operate(perform operation) the value of variables 
+->set of symbols 
+->it is used to perform specific task 
+
+types :
+a)arithmetic operator 
+b)relational operator
+c)logical operator 
+d)assignment operator 
+e)ternary operator 
+----------------------------------------------------------------------
+a)arithmetic operator : 
+->set of symbols 
+->working :
+	it is used to perform some mathematical operations in c 
+
+symbols :
++ :addition (a+b)
+- :substraction (a-b) 
+* :multiplication (a*b) 
+/ :divide (a/b)
+% :modular (a%b) 
+----------------------------------------------------------------------
+b)relational operator
+->set of symbols 
+->working :
+	used to make some conditions and check true or false 
+
+symbols :
+< :less than 
+> :greater than 
+== :equal equal to 
+!= :not equal to
+<= :less than equal 
+>= :greater than equal 
+----------------------------------------------------------------------
+== :it is used to compare the two variables value 
+
+!= :when two variable value will not be same 
+
+<= :it is the combination of two symbols 
+	< 
+	== 
+(<) + (==) = (<=)
+
+>= :it is the combination of two symbols 
+	> 
+	== 
+(>) + (==) = (>==) 
+------------------------------------------------------------------
+c)logical operator 
+->set of symbols 
+->it is used to check two or more conditions a condition will be false or true 
+
+i)and (&& )
+	->it is used to check two or more condition but all conditions must be true .
+
+T && T : WORKING 
+T && F :NOT WORKING 
+F && T :NOT WORKING 
+F && F :NOT WORKING 
+
+ii)or (|| )
+	->it is used to check two or condition but one condition must be true 
+T || F :WORKING 
+F || T :WORKING 
+T || T :WORKING 
+F || F :NOT WORKING 
+------------------------------------------------------------------
+d)assignment operator 
+->set of symbols 
+->it is used to assign the value of variables 
+
+symbol :
+= :assignment operator 
+
+int a=89 ; (= :assignment operator)
+
+------------------------------------------------------------------
+3.4+8*(4/2)*1.1
+
+#include<stdio.h>
+int main(){
+    float a=3.4;
+    int b=8;
+    int c=4;
+    int d=2;
+    float f=1.1;
+    float result=a+b*(c/d)*f;
+    printf("%f",result);
+    return 0;
+}
+
+
